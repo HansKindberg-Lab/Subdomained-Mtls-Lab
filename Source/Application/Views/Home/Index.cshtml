@@ -1,0 +1,22 @@
+﻿@model HomeViewModel
+<div class="card">
+	<div class="card-header">
+		<h1 class="h4 m-0 p-0">Subdomained mTLS lab</h1>
+	</div>
+	<div class="card-body">
+		<h2 class="h5 mb-0">Client-certificate</h2>
+		<p>@Html.Raw(Model.ClientCertificate?.ToString() ?? "<i>null</i>")</p>
+		<h2 class="h5 mb-0">Host-environment</h2>
+		<p>
+			<i>@Model.HostEnvironment.EnvironmentName</i>
+		</p>
+		<h2 class="h5 mb-0">Context</h2>
+		<ul>
+			<li>Host: <strong>@Context.Request.Host.Value</strong></li>
+			<li>LocalIpAddress: <strong>@Context.Connection.LocalIpAddress</strong></li>
+			<li>LocalPort: <strong>@Context.Connection.LocalPort</strong></li>
+			<li>RemoteIpAddress: <strong>@Context.Connection.RemoteIpAddress</strong></li>
+			<li>RemotePort: <strong>@Context.Connection.RemotePort</strong></li>
+		</ul>
+	</div>
+</div>

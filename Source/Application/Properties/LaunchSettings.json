@@ -1,0 +1,44 @@
+{
+	"profiles": {
+		"Port-Multiple-Certificates": {
+			"applicationUrl": "https://example.local:5000",
+			"commandName": "Project",
+			"dotnetRunMessages": "true",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Port-Multiple-Certificates",
+				"ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+			},
+			"launchBrowser": true
+		},
+		"Port-One-Certificate": {
+			"applicationUrl": "https://example.local:5000",
+			"commandName": "Project",
+			"dotnetRunMessages": "true",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Port-One-Certificate",
+				"ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+			},
+			"launchBrowser": true
+		},
+		"Sni-Multiple-Certificates": {
+			"applicationUrl": "https://example.local:5000",
+			"commandName": "Project",
+			"dotnetRunMessages": "true",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Sni-Multiple-Certificates",
+				"ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+			},
+			"launchBrowser": true
+		},
+		"Sni-One-Certificate": {
+			"applicationUrl": "https://example.local:5000",
+			"commandName": "Project",
+			"dotnetRunMessages": "true",
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Sni-One-Certificate",
+				"ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+			},
+			"launchBrowser": true
+		}
+	}
+}
